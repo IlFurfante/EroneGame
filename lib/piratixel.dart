@@ -14,7 +14,7 @@ class Piratixel extends FlameGame with HasKeyboardHandlerComponents, DragCallbac
 late CameraComponent cam;
 Player player = Player(character:  'Mask Dude');
 late JoystickComponent joyStick;
-bool showControl = false;
+bool showControl = true;
 bool playSounds = true;
 double soundVolume = 1.0;
 
